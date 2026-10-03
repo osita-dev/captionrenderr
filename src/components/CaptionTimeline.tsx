@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import type { WordTimestamp } from '../lib/types';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Pencil, Check, ChevronLeft, ChevronRight, Play, Pause } from 'lucide-react';
+import { Check, ChevronLeft, ChevronRight, Play, Pause } from 'lucide-react';
 
 interface CaptionTimelineProps {
   words: WordTimestamp[];

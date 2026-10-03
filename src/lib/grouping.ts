@@ -99,8 +99,8 @@ function shouldCloseGroup(
   currentGroup: WordTimestamp[],
   nextWord: WordTimestamp | undefined,
   maxWords: number,
-  allWords: WordTimestamp[],
-  currentIndex: number
+  _allWords: WordTimestamp[],
+  _currentIndex: number
 ): boolean {
   // Always close if we've reached max words
   if (currentGroup.length >= maxWords) {

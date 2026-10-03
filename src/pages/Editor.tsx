@@ -6,14 +6,12 @@ import { StyleSelector } from '../components/StyleSelector';
 import { Button } from '../components/ui/button';
 import { Slider } from '../components/ui/slider';
 import { ToggleGroup, ToggleGroupItem } from '../components/ui/toggle-group';
-import { api } from '../lib/api';
 import { STYLE_PRESETS } from '../lib/presets';
 import type { StylePreset } from '../lib/presets';
 import type { WordTimestamp, CaptionStyle } from '../lib/types';
-import { groupWords } from '../lib/grouping';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://captionrender.onrender.com/api';
 
 export default function Editor() {
   const location = useLocation();

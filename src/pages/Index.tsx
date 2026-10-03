@@ -47,7 +47,7 @@ export default function Index() {
     setUploadError(null);
 
     try {
-      const job: VideoJob = await api.uploadVideo(file, setUploadProgress, compress);
+      const job: VideoJob = await api.uploadVideo(file, setUploadProgress);
       navigate('/editor', { state: { jobId: job.id, fileName: file.name } });
     } catch (err) {
       console.error('Upload failed:', err);
