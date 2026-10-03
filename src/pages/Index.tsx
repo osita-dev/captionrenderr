@@ -42,7 +42,7 @@ export default function Index() {
     await uploadFile(selectedFile, false);
   };
 
-  const uploadFile = async (file: File, compress: boolean) => {
+  const uploadFile = async (file: File, _compress: boolean) => {
     setIsUploading(true);
     setUploadError(null);
 
