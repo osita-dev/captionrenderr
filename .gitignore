@@ -13,7 +13,7 @@ env
 .env.sample
 env.sample
 node_modules
-
+dist
 dist-ssr
 *.local
 
