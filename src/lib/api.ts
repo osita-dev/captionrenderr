@@ -1,6 +1,6 @@
 import type { VideoJob, WordTimestamp, CaptionStyle } from './types';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'https://captionrender.onrender.com/api';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://captionrender-production.up.railway.app/api';
 
 export const api = {
   async uploadVideo(file: File, onProgress: (p: number) => void): Promise<VideoJob> {
@@ -142,6 +142,6 @@ export const api = {
     if (!data.downloadUrl) throw new Error('No download URL returned');
 
     // downloadUrl already contains /api, so just prepend the base URL
-    return `https://captionrender.onrender.com${data.downloadUrl}`;
+    return `https://captionrender-production.up.railway.app${data.downloadUrl}`;
   },
 };

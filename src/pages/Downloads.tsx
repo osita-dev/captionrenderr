@@ -6,7 +6,7 @@ import { CheckCircle, Download, ArrowLeft, XCircle } from 'lucide-react';
 import { api } from '../lib/api';
 import type { WordTimestamp, CaptionStyle } from '../lib/types';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'https://captionrender.onrender.com/api';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://captionrender-production.up.railway.app/api';
 
 export default function Downloads() {
   const location = useLocation();

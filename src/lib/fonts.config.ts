@@ -13,7 +13,6 @@ export interface FontConfig {
 
 export const FONTS: FontConfig[] = [
   // ─── Custom Fonts ───
-  { name: 'Scarlet', file: 'Scarlet.otf', color: '#ffffff', size: 28, highlightColor: '#ec4899', highlightWords: true },
   { name: 'Catchye', file: 'Catchye.otf', color: '#ffffff', size: 30 },
   { name: 'Caviar Dreams', file: 'CaviarDreams.ttf', color: '#ffffff', size: 26 },
   { name: 'Stretch Pro', file: 'StretchPro.otf', color: '#ffffff', size: 32 },

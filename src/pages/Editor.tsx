@@ -11,7 +11,7 @@ import type { StylePreset } from '../lib/presets';
 import type { WordTimestamp, CaptionStyle } from '../lib/types';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'https://captionrender.onrender.com/api';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://captionrender-production.up.railway.app/api';
 
 export default function Editor() {
   const location = useLocation();

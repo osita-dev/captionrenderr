@@ -2,13 +2,6 @@
 
 /* ─── Custom Font Presets (auto-generated from fonts.config.ts) ─── */
 @font-face {
-  font-family: 'Scarlet';
-  src: url('/fonts/Scarlet.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
   font-family: 'Catchye';
   src: url('/fonts/Catchye.otf') format('opentype');
   font-weight: normal;
